@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url("/BG-PNB.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 4rem; /* Voeg padding toe aan de bodem om ruimte te maken voor de footer */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; /* Zorgt ervoor dat de tekst in de container gecentreerd is */
+}
+
+.message {
+    margin-bottom: 2rem; /* Ruimte onder de boodschap */
+}
+
+.card2 {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, .125);
+    background-color: #555555;
+    width: 40rem;
+    border-radius: 1%;
+    text-align: center; /* Centraal uitlijnen van tekst en inhoud */
+    display: flex;      /* Flexbox toegepast om de inhoud te centreren */
+    flex-direction: column; /* Inhoud in een kolom rangschikken */
+    justify-content: center; /* Verticaal centreren van de inhoud */
+    align-items: center;     /* Horizontaal centreren van de inhoud */
+}
+
+input {
+    display: block;
+    margin: 1rem 0;      /* Marges toegevoegd boven en onder het inputveld */
+    padding: 10px;       /* Padding binnen het inputveld voor meer ruimte */
+    width: 80%;          /* Breedte van het inputveld naar 80% van de container */
+    max-width: 300px;    /* Maximaal 300px breedte, zodat het inputveld niet te groot wordt */
+    text-align: center;  /* Tekst binnen het inputveld gecentreerd */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2aa0d7;
+    color: #b94242;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-top: 1rem; /* Marges toegevoegd boven de knop voor ruimte */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+  }

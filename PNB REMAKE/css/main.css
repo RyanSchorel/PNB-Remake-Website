@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  background-image: url("/BG-PNB.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.video1 {
+  height: 30rem;
+}
+
+.card {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, .125);
+  background-color: #adafaf;
+  width: 15rem;
+  border-radius: 1%;
+  text-align: center;
+}
+
+.pnb {
+  height: 130px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2aa0d7;
+  color: #b94242;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.card2 {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, .125);
+  background-color: #555555;
+  width: 40rem;
+  border-radius: 1%;
+  text-align: center;
+}
+
+.pnb2 {
+  height: 330px;
+}
+
+input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+}
